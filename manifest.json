@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Draggable Circle",
+    "version": "1.0",
+    "description": "A draggable circle that can be moved around the screen.",
+    "permissions": [],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,11 @@
+#draggable-circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: fixed;
+    cursor: grab;
+    z-index: 9999;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
